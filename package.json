@@ -1,0 +1,40 @@
+{
+  "name": "@pittica/google-business-intelligence-backup",
+  "private": false,
+  "version": "1.0.0",
+  "description": "Backup for business intelligence for Google Cloud.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf ./dist && mkdirp ./dist && babel src --out-dir dist --copy-files",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pittica/google-business-intelligence-backup.git"
+  },
+  "keywords": [
+    "pittica",
+    "business-intelligence",
+    "google-cloud-platform",
+    "gcp"
+  ],
+  "author": "Lucio Benini <lucio.benini@pittica.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pittica/google-business-intelligence-backup/issues"
+  },
+  "homepage": "https://github.com/pittica/google-business-intelligence-backup",
+  "engines": {
+    "node": ">=24.11.0"
+  },
+  "dependencies": {
+    "@pittica/google-business-intelligence-configuration": "^1.0.6",
+    "@pittica/google-business-intelligence-helpers": "^1.15.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^8.0.6",
+    "mkdirp": "^3.0.1",
+    "prettier": "^3.9.10",
+    "rimraf": "^6.1.3"
+  }
+}
