@@ -1,7 +1,7 @@
 {
   "name": "@pittica/google-business-intelligence-backup",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Backup for business intelligence for Google Cloud.",
   "main": "dist/index.js",
   "scripts": {
@@ -28,13 +28,13 @@
     "node": ">=24.11.0"
   },
   "dependencies": {
-    "@pittica/google-business-intelligence-configuration": "^1.0.6",
-    "@pittica/google-business-intelligence-helpers": "^1.15.3"
+    "@pittica/google-business-intelligence-configuration": "^1.0.7",
+    "@pittica/google-business-intelligence-helpers": "^1.17.4"
   },
   "devDependencies": {
-    "@babel/cli": "^8.0.6",
+    "@babel/cli": "^8.1.0",
     "mkdirp": "^3.0.1",
-    "prettier": "^3.9.10",
-    "rimraf": "^6.1.3"
+    "prettier": "^3.10.1",
+    "rimraf": "^6.1.4"
   }
 }
